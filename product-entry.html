@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Entry</title>
+  <link rel="stylesheet" href="index.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="container">
+    <h1>Enter Product Details</h1>
+    <form action="#" method="POST">
+      <div>
+        <label for="product-name">Product Name:</label><br>
+        <input type="text" id="product-name" name="product-name" required>
+      </div>
+      <br>
+      <div>
+        <label for="category">Category:</label><br>
+        <input type="text" id="category" name="category" required>
+      </div>
+      <br>
+      <div>
+        <label for="stock-level">Stock Level:</label><br>
+        <input type="number" id="stock-level" name="stock-level" required>
+      </div>
+      <br>
+      <div>
+        <label for="reorder-point">Reorder Point:</label><br>
+        <input type="number" id="reorder-point" name="reorder-point" required>
+      </div>
+      <br>
+      <div>
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
